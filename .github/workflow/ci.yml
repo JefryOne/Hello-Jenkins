@@ -20,6 +20,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'maven'
+        maven-version: '3.9.9'
 
     - name: Build and Test
       run: mvn clean verify
